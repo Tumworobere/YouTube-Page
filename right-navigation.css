@@ -1,0 +1,74 @@
+.right-navigation {
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-navigation .items-panel {
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-navigation .items-panel .panel-item {
+    font-size: 15px;
+    padding: 5px 10px;
+    background: #E0E0E0;
+    border: 1px solid #cecdcd;
+    border-radius: 15px;
+    text-align: center;
+}
+.right-navigation .items-panel .panel-item.active {
+    background: #000000;
+    color: #F9F9F9;
+    border: none;
+}
+.right-navigation .items-panel .panel-item.active:hover {
+    background: #909090;
+}
+
+.right-navigation .items-panel .caret.right.icon {
+    color: #909090;
+    font-size: 20px;
+}
+
+.right-navigation .nav-card {
+    width: 100%;
+    max-height: 110;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-navigation .nav-card .img-wrapper {
+    width: 175px;
+    height: 105px;
+}
+.right-navigation .nav-card .img-wrapper img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.right-navigation .nav-card .card-description {
+    width: 200px;
+}
+.right-navigation .nav-card .card-description h4,
+.right-navigation .nav-card .card-description p {
+    margin: 1px;
+}
+.right-navigation .nav-card .card-description p {
+    color: #7c7c7c;
+}
+.right-navigation .nav-card .card-description .new {
+    width: 35px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #e9e9e9;
+    border-radius: 2px;
+}
